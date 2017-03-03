@@ -1,5 +1,5 @@
-<ul class="content list-unstyled">
-    <li ng-repeat="todo in todos | filter: statusFilter | filter: searchKeyword">
+<ul class="content list-unstyled todo_list">
+    <li class="item" ng-repeat="todo in todos | filter: statusFilter | filter: searchKeyword">
         <div class="input-group">
             <span class="input-group-addon">
                 <input type="checkbox" ng-model="todo.completed" ng-click="update()">
