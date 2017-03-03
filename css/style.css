@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.container {
+    width: 600px;
+    margin: 20px auto 0 auto;
+    padding: 0;
+}
+
+.header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.content {
+    margin-bottom: 10px;
+}
+.input-group .ng-dirty.ng-invalid {
+    border: 1px solid red;
+}
+.box_sort .btn {
+    width: 30%;
+    margin: 10px -4px 0 5%;
+}
+.box_sort .btn:first-child {
+    margin-left: 0;
+}
