@@ -1,0 +1,14 @@
+<ul class="content list-unstyled">
+    <li ng-repeat="todo in todos | filter: statusFilter | filter: searchKeyword">
+        <div class="input-group">
+            <span class="input-group-addon">
+                <input type="checkbox" ng-model="todo.completed" ng-click="update()">
+            </span>
+            <input type="text" class="form-control" ng-model="todo.title" ng-blur="update()">
+            <span class="input-group-btn">
+                <button class="btn btn-outline-danger" type="button" ng-click="remove($index)">Remove</button>
+            </span>
+        </div>
+        <date>{{todo.createdAt | date: 'yyyy-MM-dd HH:mm:ss'}}</date>
+    </li>
+</ul>
