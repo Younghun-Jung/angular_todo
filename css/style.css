@@ -23,3 +23,12 @@
 .box_sort .btn:first-child {
     margin-left: 0;
 }
+
+.todo_list {
+    margin-top: 20px;
+    padding: 10px 5px 0;
+    border-top: 1px solid #b5b5b5;
+}
+.todo_list .item {
+    margin-bottom: 15px;
+}
