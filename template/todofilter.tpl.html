@@ -1,0 +1,10 @@
+<div class="content">
+    <form name="todoSearch">
+        <input type="text" placeholder="Search Todo..." class="form-control" ng-model="searchKeyword">
+    </form>
+    <div class="box_sort">
+        <button class="btn btn-outline-success" ng-click="statusFilter={completed:true}">COMPLETED</button>
+        <button class="btn btn-outline-warning" ng-click="statusFilter={completed:false}">ACTIVE</button>
+        <button class="btn btn-outline-primary" ng-click="statusFilter={}">ALL</button>
+    </div>
+</div>
