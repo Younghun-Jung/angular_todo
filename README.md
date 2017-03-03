@@ -12,7 +12,7 @@
 - browser-sync
 
 ### Functions
-- You can add TODO list using input tab
+- You can add TODO list using input tab(title needs to be more than 3 words)
 - Search your TODO list
 - You can save your list item in local storage.
 - If you completed TODO item, use checkbox on the left hand of list box
