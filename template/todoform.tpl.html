@@ -1,0 +1,11 @@
+<div class="content form">
+    <form name="todoForm" ng-submit="addTodo(newTodoTitle)">
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Add New TODO List" ng-model="newTodoTitle" minlength="3">
+            <span class="input-group-btn">
+                <button type="submit" class="btn btn-outline-success">ADD</button>
+            </span>
+        </div>
+    </form>
+    <div class="alert alert-warning" ng-show="todoForm.$dirty && todoForm.$invalid">Write title more than 3 words</div>
+</div>
